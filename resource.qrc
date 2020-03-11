@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/icons/koompi-dark.svg</file>
+        <file>resource/icons/koompi-light.svg</file>
+        <file>resource/images/image1.jpg</file>
+        <file>resource/images/image2.jpg</file>
+        <file>resource/images/image3.jpg</file>
+        <file>resource/images/image4.jpg</file>
+        <file>resource/images/image5.jpg</file>
+    </qresource>
+</RCC>
