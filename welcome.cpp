@@ -5,6 +5,8 @@
 #include <QImageReader>
 #include <QPixmap>
 #include <QApplication>
+#include <QGraphicsDropShadowEffect>
+
 
 welcome::welcome(QWidget *parent)
     : QWidget(parent)
@@ -33,11 +35,11 @@ welcome::welcome(QWidget *parent)
 
     Pages->setCurrentIndex(0);
 
-    this->resize(QSize(512,768));
-    this->setMaximumSize(QSize(512,768));
+    this->resize(QSize(1366,768));
+    this->setMaximumSize(QSize(1366,768));
     this->setWindowTitle("KOOMPI OS");
     this->setWindowIcon(QIcon("://resource/icons/koompi-light.svg"));
-//    this->setWindowFlags(Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint);
+    this->setWindowFlags(Qt::WindowStaysOnTopHint);
     this->setLayout(Pages);
 }
 
@@ -49,10 +51,31 @@ QWidget *welcome::Page(QWidget *Page, const int &PageType, const QString &ImageP
     QPushButton * BackButton = new QPushButton;
     QPushButton * DoneButton = new QPushButton;
 
-    NextButton->setIcon(QIcon::fromTheme("arrow-right"));
-    NextButton->setLayoutDirection(Qt::RightToLeft);
-    BackButton->setIcon(QIcon::fromTheme("arrow-left"));
-    DoneButton->setIcon(QIcon::fromTheme("dialog-ok"));
+    QGraphicsDropShadowEffect *effect1 = new QGraphicsDropShadowEffect;
+    effect1->setBlurRadius(50);
+    effect1->setXOffset(0);
+    effect1->setYOffset(10);
+    effect1->setColor(Qt::black);
+
+    QGraphicsDropShadowEffect *effect2 = new QGraphicsDropShadowEffect;
+    effect2->setBlurRadius(50);
+    effect2->setXOffset(0);
+    effect2->setYOffset(10);
+    effect2->setColor(Qt::black);
+
+    QGraphicsDropShadowEffect *effect3 = new QGraphicsDropShadowEffect;
+    effect3->setBlurRadius(50);
+    effect3->setXOffset(0);
+    effect3->setYOffset(10);
+    effect3->setColor(Qt::black);
+
+    NextButton->setGraphicsEffect(effect1);
+    BackButton->setGraphicsEffect(effect2);
+    DoneButton->setGraphicsEffect(effect3);
+
+    NextButton->setStyleSheet("font-weight: bold; background-color: #68207a; color: white; font-size: 24px; border-radius: 6px;");
+    BackButton->setStyleSheet("font-weight: bold; background-color: gray; color: white; font-size: 24px; border-radius: 6px;");
+    DoneButton->setStyleSheet("font-weight: bold; background-color: #2E8B57; color: white; font-size: 24px; border-radius: 6px;");
 
     PageButton(NextButton, "Next");
     PageButton(BackButton, "Back");
@@ -66,9 +89,9 @@ QWidget *welcome::Page(QWidget *Page, const int &PageType, const QString &ImageP
 
     PageBackground->setPixmap(BackgroundImage);
     PageBackground->setScaledContents(true);
-    PageBackground->resize(QSize(512,768));
+    PageBackground->resize(QSize(1366,768));
     PageBackground->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
-    PageBackground->setMaximumSize(QSize(512,768));
+    PageBackground->setMaximumSize(QSize(1366,768));
 
     PageLayout->addWidget(PageBackground, 1,1,2,5,Qt::AlignCenter);
     PageLayout->setSpacing(0);
@@ -112,8 +135,8 @@ QPushButton *welcome::PageButton(QPushButton *Button, const QString &Name)
 {
     Button->setText(Name);
     Button->setSizePolicy(QSizePolicy::Fixed,QSizePolicy::Fixed);
-    Button->setMaximumSize(150,50);
-    Button->setMinimumSize(150,50);
+    Button->setMaximumSize(200,70);
+    Button->setMinimumSize(200,70);
     Button->setFocusPolicy(Qt::ClickFocus);
 //    Button->setStyleSheet("background-color: green; color: white; font-size: 24px; border-radius: 25px;");
     return Button;
