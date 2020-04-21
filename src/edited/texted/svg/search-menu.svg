@@ -96,7 +96,7 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="0.58333333"
-     inkscape:cx="312.33959"
+     inkscape:cx="892.62531"
      inkscape:cy="551.37699"
      inkscape:window-x="0"
      inkscape:window-y="32"
@@ -117,45 +117,40 @@
      height="58.285713"
      x="1012.7142"
      y="85.714279" />
-  <g
-     id="g840"
-     transform="translate(-18.512573)"
-     style="filter:url(#filter848)">
-    <rect
-       y="482.24716"
-       x="613.92181"
-       height="280.72812"
-       width="729.18152"
-       id="rect819"
-       style="fill:#008080;stroke:#008080;stroke-width:8.85173225;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       id="text827"
+  <rect
+     style="fill:#333333;stroke:#666666;stroke-width:8.85173225;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter848)"
+     id="rect819"
+     width="729.18152"
+     height="280.72812"
+     x="595.40924"
+     y="482.24716" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:66.66666412px;line-height:83.33332825px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Ultra-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter848)"
+     x="650.65863"
+     y="587.09851"
+     id="text827"><tspan
+       sodipodi:role="line"
+       id="tspan825"
+       x="650.65863"
        y="587.09851"
-       x="669.1712"
-       style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:66.66666412px;line-height:83.33332825px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Ultra-Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:83.33332825px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none"
-         y="587.09851"
-         x="669.1712"
-         id="tspan825"
-         sodipodi:role="line">SEARCH</tspan></text>
-    <text
-       id="text831"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:83.33332825px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none">SEARCH</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter848);"
+     x="653.54095"
+     y="662.21405"
+     id="text831"><tspan
+       sodipodi:role="line"
+       id="tspan829"
+       x="653.54095"
        y="662.21405"
-       x="672.05353"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:32px;line-height:129.99999523%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Ultra-Light';fill:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none"
-         y="662.21405"
-         x="672.05353"
-         id="tspan829"
-         sodipodi:role="line">You can type to seach for applications </tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:32px;line-height:129.99999523%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Ultra-Light';fill:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none"
-         id="tspan833"
-         y="703.81403"
-         x="672.05353"
-         sodipodi:role="line">either  by the name  or type.</tspan></text>
-  </g>
+       style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:32px;line-height:129.99999523%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Ultra-Light';fill:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;">You can type to seach for applications </tspan><tspan
+       sodipodi:role="line"
+       x="653.54095"
+       y="703.81403"
+       id="tspan833"
+       style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:32px;line-height:129.99999523%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Ultra-Light';fill:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;">either  by the name  or type.</tspan></text>
   <path
      style="fill:none;stroke:#ffff00;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="M 652.35377,604.86478 H 1071.5698 V 142.98249"
